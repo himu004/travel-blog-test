@@ -1,21 +1,41 @@
-* {
+*{
     margin: 0;
-    
+    padding: 0;
 }
 body {
     background-color: darkslateblue;
-}
-header {
-    background-color: deepskyblue;
-    padding: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
-.heading {
+.navbar ul{
+    list-style: none;
+    background-color: blueviolet;
     text-align: center;
-    color: aliceblue;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    word-spacing: 5px;
 }
+
+.navbar li {
+
+    display: inline-block;
+}
+.navbar a {
+    text-decoration: none;
+    color: aliceblue;
+    width: 100px;
+    display: block;
+    padding: 25px 25px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.navbar a:hover{
+    background-color: aliceblue;
+    color: brown;
+}
+
 .blog-sections {
     display: flex;
     justify-content: center;
@@ -40,12 +60,18 @@ img {
 }
 .card {
     width: 250px;
-    height: 350px;
+    height: 400px;
     background-color: aliceblue;
-    display: inline-block;
     text-align: center;
+    margin-top: 20px;
     margin-right: 10px;
     border-radius: 20px;
     box-shadow: 5px 5px 5px;
-    padding: 10px;
+    padding: 20px;
+}
+
+.word {
+    color: tomato;
+    font: optional;
+    font-weight: bold;
 }
